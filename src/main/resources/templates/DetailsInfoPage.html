@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div align="center">
+<h1>Employess</h1>
+<br/>
+
+<a hreaf="/new">add new employee</a>
+<table border="1" cellpadding="10"></table>
+<table>
+<thead>
+<tr>
+<td>ID</td>
+<td>Login</td>
+<td>Name</td>
+<td>Salary</td>
+<td>StartDate</td>
+</tr>
+</thead>
+<tbody>
+<tr th:each="emp :{emplist}">
+<td th:text="${emp.id}">id</td>
+<td th:text="${emp.login}">id</td>
+<td th:text="${emp.name}">id</td>
+
+<td>
+<a th:href="">Edit</a>&nbsp;
+<a th:href="">Delete</a></td>
+
+
+
+</tbody>
+</table>
+</body>
+</html>
