@@ -2,14 +2,7 @@
 NPHC SWE Take Home Challenge
 
 ## Instruction to Setup
-
-**1. Clone the application**
-
-```bash
-https://github.com/manas-ku-swain/NPHC-SWE-Challenge.git
-```
-
-**2. Build and run the app using maven**
+**1. Build and run the app using maven**
 
 ```bash
 mvn package
@@ -41,7 +34,7 @@ The app defines following CRUD APIs.
 
 
 ## Testing
-
+When you load the EmployeeDetails page, the data and functionalities on that page are self explanatory e.g. Add Employee
 
 ## Assumtions
 - It's expected from users to use the functionalities as instructed in a fair manner
